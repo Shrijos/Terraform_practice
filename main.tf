@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "shrijo" {
-    ami = "ami-05552d2dcf89c9b24"
+    ami = "****"  //Provide the key pair value
     instance_type = "t2.micro"
     key_name = "****"  //Need to provide the Key_pair name 
 }
